@@ -15,6 +15,7 @@
 		7D41F8B620E23C42000053C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F8B420E23C42000053C4 /* LaunchScreen.storyboard */; };
 		7D41F8C120E23C42000053C4 /* AR_HoopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41F8C020E23C42000053C4 /* AR_HoopsTests.swift */; };
 		7D41F8CC20E23C42000053C4 /* AR_HoopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41F8CB20E23C42000053C4 /* AR_HoopsUITests.swift */; };
+		7D41F8DC20E23FA7000053C4 /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F8DB20E23FA7000053C4 /* Basketball.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7D41F8C720E23C42000053C4 /* AR_HoopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_HoopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D41F8CB20E23C42000053C4 /* AR_HoopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_HoopsUITests.swift; sourceTree = "<group>"; };
 		7D41F8CD20E23C42000053C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D41F8DB20E23FA7000053C4 /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7D41F8B420E23C42000053C4 /* LaunchScreen.storyboard */,
 				7D41F8B720E23C42000053C4 /* Info.plist */,
 				7D41F8AF20E23C40000053C4 /* AR_Hoops.xcdatamodeld */,
+				7D41F8DB20E23FA7000053C4 /* Basketball.scnassets */,
 			);
 			path = AR_Hoops;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D41F8DC20E23FA7000053C4 /* Basketball.scnassets in Resources */,
 				7D41F8B620E23C42000053C4 /* LaunchScreen.storyboard in Resources */,
 				7D41F8B320E23C42000053C4 /* Assets.xcassets in Resources */,
 				7D41F8AE20E23C40000053C4 /* Main.storyboard in Resources */,
@@ -437,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 237J8UY6UT;
 				INFOPLIST_FILE = AR_Hoops/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 237J8UY6UT;
 				INFOPLIST_FILE = AR_Hoops/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
